@@ -4,13 +4,13 @@ ZSH_THEME=""
 
 plugins=(
     git
+    colored-man-pages
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # Alias
 alias p="cd ~/projects"
-alias h="p && cd hfjuarez"
 
 # Load NVM 
 # export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
